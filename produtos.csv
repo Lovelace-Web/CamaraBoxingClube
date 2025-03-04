@@ -1,11 +1,11 @@
 nome,categoria,preco,video,tipo,caracteristica,tamanho,localizacao,forma_pagamento,status,imagem_fundo,tem_multipla_escolha,lista_escolhas
-Ricardo camara Boxing Clube,academia,,,nome,,,localizacao,,true,https://raw.githubusercontent.com/Lovelace-Web/CamaraBoxingClube/main/imagens/logocamara.webp,,
-HOME,academia,,,home,Bem vindo a academia do Ricardo Camara; professor licenciado pela FGB; A prestigiada Federação Gaucha do Boxe,,,,true,https://raw.githubusercontent.com/Lovelace-Web/CamaraBoxingClube/main/imagens/novo_projeto.jpg,,
-ACADEMIA,academia,110,,Aula1,1 vez na semana,,,,true,,,
-ACADEMIA,academia,160,,Aula2,2 vezes na semana,,,,true,,,
-ACADEMIA,academia,200,,Aula3,3 vezes na semana,,,,true,,,
-ACADEMIA,academia,,,Aula4,Personalizado,,,,true,,,
-informações,academia,,,info_contato,5551996819922,,,,true,,,
-informações,academia,,,info_localização,Centro Histórico R. dos Andradas; 904 - sala 204 Porto Alegr RS,,,,true,,,
+Ricardo camara Boxing Clube,academia,,,nome,,,localizacao,,true,https://raw.githubusercontent.com/Lovelace-Web/CamaraBoxingClube/main/imagens/logocamara.webp,,5551996819922
+HOME,academia,,,home,Bem vindo a academia do Ricardo Camara; professor licenciado pela FGB; A prestigiada Federação Gaucha do Boxe,,,,true,https://raw.githubusercontent.com/Lovelace-Web/CamaraBoxingClube/main/imagens/novo_projeto.jpg,,5551996819922
+ACADEMIA,academia,110,,Aula1,1 vez na semana,,,,true,,,5551996819922
+ACADEMIA,academia,160,,Aula2,2 vezes na semana,,,,true,,,5551996819922
+ACADEMIA,academia,200,,Aula3,3 vezes na semana,,,,true,,,5551996819922
+ACADEMIA,academia,,,Aula4,Personalizado,,,,true,,,5551996819922
+informações,academia,,,info_contato,5551996819922,,,,true,,,5551996819922
+informações,academia,,,info_localização,Centro Histórico R. dos Andradas; 904 - sala 204 Porto Alegr RS,,,,true,,,5551996819922
 
 
