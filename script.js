@@ -249,7 +249,7 @@ function enviar_whatsapp(contato, preco, produto, nome_produto) {
     }
 
     // Gerando o link do WhatsApp
-    const linkWhatsApp = `https://wa.me/${eliminarEspacosEmBrancoEErros("5551985109343")}?text=${encodeURIComponent(mensagem)}`;
+    const linkWhatsApp = `https://wa.me/${eliminarEspacosEmBrancoEErros(contato)}?text=${encodeURIComponent(mensagem)}`;
 
     // Abre o link em uma nova aba
     window.open(linkWhatsApp, "_blank");
