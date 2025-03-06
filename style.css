@@ -1,0 +1,415 @@
+
+header {
+    position: relative;
+    background: linear-gradient(135deg, rgb(0, 0, 0), rgb(0, 52, 74));
+    display: flex;
+    width: 100%;
+    padding: 5px 0;
+    justify-content: center;
+    align-items: center;
+}
+header a {
+    display: inline-block; /* Deixa os links em linha */
+    padding: 10px; /* Padding de 10px */
+    color: white; /* Cor da fonte branca */
+    text-decoration: none; /* Remove a linha embaixo */
+    font-size: 24px; /* Tamanho da fonte */
+}
+header a:hover{
+    color: rgb(132, 220, 255); /* Cor da fonte branca */
+}
+header a:hover{
+    color: rgb(132, 220, 255); /* Cor da fonte branca */
+}
+
+
+footer {
+    position: relative;
+    background: linear-gradient(135deg, rgb(0, 0, 0), rgb(0, 52, 74));
+    color: white;
+    padding: 20px 0;
+    width: 100%;
+    height: 10%;
+    margin-top: auto; 
+    top: 100%;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+   
+}
+
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+
+.footer-social .social-icon {
+    color: white;
+    font-size: 24px;
+}
+
+.footer-social .social-icon:hover {
+    color: #ccc;
+}
+
+
+
+
+main {
+    flex: 1; /* Faz com que o conteúdo ocupe o espaço disponível entre header e footer */
+    }
+    #menu-toggle {
+        display: none;
+    }
+    body {
+        font-family: Arial, sans-serif;  /* Fonte limpa e legível */
+        line-height: 1.5;  /* Maior espaçamento entre as linhas */
+        padding: 0;  /* Espaço nas bordas */
+        margin: 0;
+        background: linear-gradient(360deg, rgb(0, 0, 0), rgb(0, 30, 72));
+        justify-content: center;  /* Centraliza horizontalmente */
+        align-items: center;  /* Centraliza verticalmente */
+        min-height: 100vh;  /* Garante que o body ocupe toda a altura da tela */
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;  /* Evita que o conteúdo transborde horizontalmente */
+        flex-direction: column;  /* Organiza os itens em coluna */
+        min-height: 100vh; /* Garante que o body ocupe toda a tela */
+    }
+
+#menu img {
+    height: 90px;
+}
+
+/* Estilização da seção Home */
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: left;
+    padding: 20px;
+}
+
+#home img {
+    width: 100%;
+    max-width: 900px;
+    border-radius: 10px;
+}
+
+#home p {
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    max-width: 900px;
+    width: 50%;
+    color: white;
+    font-size: 1.2em;
+    background: rgba(0, 0, 0, 0.173);
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+}
+
+/* Estilização dos produtos */
+.fileira_produtos_academia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+.quadrado_produtos {
+    display: inline-block;
+    width: 200px;
+    padding: 15px;
+    background: linear-gradient(135deg, rgb(255, 255, 255), rgb(224, 224, 224));
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease; /* Transição suave para o hover */
+}
+
+
+
+
+.quadrado_produtos h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2d2d2d;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.quadrado_produtos p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+
+.quadrado_produtos .btn-comprar {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #0fe6f185;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.quadrado_produtos .btn-comprar:hover {
+    background-color: #e1b30f;
+}
+
+
+
+.quadrado_produtos.ouro {
+    background: linear-gradient(135deg, rgb(255, 223, 0), rgb(255, 215, 0)); /* Ouro mais suave */
+}
+
+.quadrado_produtos.prata {
+    background: linear-gradient(135deg, rgb(169, 169, 169), rgb(192, 192, 192)); /* Prata com tom mais frio */
+}
+
+.quadrado_produtos.bronze {
+    background: linear-gradient(135deg, rgb(205, 127, 50), rgb(204, 153, 102)); /* Bronze mais quente */
+}
+
+.quadrado_produtos.ouro:hover {
+    background: linear-gradient(135deg, rgb(255, 215, 0), rgb(255, 239, 153)); /* Ouro no hover */
+}
+
+.quadrado_produtos.prata:hover {
+    background: linear-gradient(135deg, rgb(192, 192, 192), rgb(224, 224, 224)); /* Prata no hover */
+}
+
+.quadrado_produtos.bronze:hover {
+    background: linear-gradient(135deg, rgb(205, 127, 50), rgb(233, 182, 110)); /* Bronze no hover */
+}
+
+.quadrado_produtos:hover {
+    background: linear-gradient(360deg, #71faff, rgb(0, 144, 197)); /* Cor de hover mais suave */
+}
+
+
+.quadrado_produtos p {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #333;
+    text-align: left;
+}
+
+
+#info{
+    padding: 10px,0;
+}
+
+.fileira_produtos_academia h1 {
+    display: block; /* Garante que o h1 ocupe a linha inteira */
+    width: 100%;    /* Certifica-se de que o h1 ocupa toda a largura disponível */
+    margin: 20px 0; /* Adiciona margem acima e abaixo para espaçamento */
+    text-align:center; /* Se quiser centralizar o texto */
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+/* Estilização dos rótulos (label) */
+label {
+    display: block; /* Faz com que cada label ocupe uma linha inteira */
+    font-size: 1em; /* Tamanho da fonte */
+    font-weight: bold; /* Deixa o texto em negrito */
+    margin-top: 10px; /* Espaçamento acima do label */
+}
+
+/* Estilização dos campos de entrada (input) */
+input {
+    width: 90%; /* Faz com que o input ocupe toda a largura do container */
+    padding: 5px; /* Adiciona um espaço interno para melhor aparência */
+    border: 1px solid #ccc; /* Borda cinza clara */
+    border-radius: 5px; /* Borda arredondada */
+    font-size: 1em; /* Tamanho da fonte */
+    background-color: #f9f9f9; /* Fundo claro */
+}
+
+/* Foco no input (quando o usuário clica para digitar) */
+input:focus {
+    border-color: #3b9cff; /* Muda a borda para azul */
+    outline: none; /* Remove o contorno padrão do navegador */
+    box-shadow: 0 0 5px rgba(59, 156, 255, 0.5); /* Adiciona um efeito de brilho ao redor */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilização geral para celular */
+@media (max-width: 768px) {
+
+    /* Header */
+    header {
+        padding: 10px 0;
+        height: 80px;
+        width: 100%; /* Corrigido para ocupar toda a largura */
+    }
+    header a {
+        display: inline-block;
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    /* Footer */
+    footer {
+        padding: 20px 0;
+        width: 100%; /* Corrigido para ocupar toda a largura */
+        font-size: 12px;
+        margin-top: auto;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* Home section */
+    #home {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        text-align: left;
+        padding: 10px;
+    }
+
+    #home img {
+        width: 110%;
+        max-width: 570px;
+        border-radius: 10px;
+    }
+
+    #home p {
+        position: absolute;
+        top: 75%;
+        left: 35%;
+        transform: translate(-50%, -50%);
+        max-width: 70%;
+        width: 100%;
+        color: white;
+        font-size: 0.7em;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    /* Ajuste dos produtos para centralização */
+.fileira_produtos_academia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+.quadrado_produtos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 250px;
+    padding: 15px;
+    text-align: center;
+}
+
+.quadrado_produtos h3 {
+    font-size: 1.2rem;
+}
+
+.quadrado_produtos p {
+    font-size: 0.9rem;
+}
+
+.quadrado_produtos .btn-comprar {
+    width: 100%;
+    padding: 10px;
+}
+
+
+
+
+    /* Ajustes no layout de produtos para telas pequenas */
+    .fileira_produtos_academia h1 {
+        display: block;
+        width: 100%;
+        margin: 20px 0;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 1.5em; /* Maior para celular */
+    }
+
+    /* Ajustes nos inputs */
+    input {
+        width: 80%; /* Faz com que os campos de entrada ocupem toda a largura disponível */
+        padding: 8px;
+    }
+
+    /* Ajuste na largura do container de informações */
+    #info {
+        padding: 10px 0;
+        width: 80%; /* Largura ajustada para celular */
+        font-size: 14px;
+    }
+    .map-iframe {
+        width: 110%; /* Faz o iframe ocupar toda a largura disponível */
+        height: 260px; /* Reduz a altura */
+    }
+}
