@@ -138,7 +138,7 @@ function gerarProdutos(produtos) {
                 if (aula) {
                     aula.innerHTML += `
                     <div class="quadrado_produtos">
-                    <h3>${produto.tipo}</h3>
+                    <h3>Mensalidade</h3>
                     <p>${produto.caracteristica}</p>
                     <p>Preço: R$ ${produto.preco}</p>
                     <label for="dia">Dia desejado:</label>
